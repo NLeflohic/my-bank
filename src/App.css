@@ -1,22 +1,92 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  background-color: #dbdbdb;
+  font-family: "roboto";
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  background-color: #2b2735;
+}
+h1 {
+  align-self: flex-end;
+  font-size: 32px;
+  padding : 20px;
+  color: #e7e7e7;
 }
 
-.App-link {
-  color: #09d3ac;
+.accounts{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  align-content: center;
+}
+
+.identification {
+  margin-top: 20px;
+  padding: 10px;
+  width : 1000px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #228cd3;
+  font-size: 32px;
+  color: rgb(228, 228, 228);
+  border-radius: 3px;
+}
+.identification:nth-of-type(2n) {background-color: rgb(236, 100, 100);}
+
+.operations {
+  display:flex;
+}
+
+.date {
+  display: flex;
+  align-self: flex-start;
+}
+.description {
+  display: flex;
+  align-self: center;
+}
+.amount {
+  display: flex;
+  align-self: flex-end;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  width : 950px;
+}
+li{background-color: rgb(190, 190, 190);}
+li:nth-child(2n+2) {background-color: rgb(228, 228, 228);}
+
+.span {
+  margin-right: 100px;
+} 
+
+.see-more { 
+  width: 950px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  /* align-items: flex-end;
+  align-content: flex-end;
+  align-self: flex-end; */
+}
+
+.button-more {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
 }
