@@ -97,6 +97,17 @@ li:nth-child(2n+2) {background-color: rgb(228, 228, 228);}
 }
 .line  {
   width: 250px;
+  font-size: 10px;
+}
+.see-more {
+  width: 250px;
+  padding: 10px;
+}
+
+.button-more {
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 5px;
 }
 
 }
