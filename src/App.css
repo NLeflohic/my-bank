@@ -90,3 +90,13 @@ li:nth-child(2n+2) {background-color: rgb(228, 228, 228);}
   font-size: 20px;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+.identification {
+  width: 300px;
+}
+.line  {
+  width: 250px;
+}
+
+}
